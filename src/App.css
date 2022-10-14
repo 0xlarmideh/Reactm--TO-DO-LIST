@@ -1,5 +1,25 @@
+* {
+  box-sizing: borde-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #e7edf2;
+}
+
 main {
-  text-align: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.todo-container {
+  max-width: 400px;
   vertical-align: center;
-  line-height: 100vh
+  background: white;
+  margin:30px;
+  border-radius:25px;
+  padding:25px;
 }
